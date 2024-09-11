@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* index.css */
+.header {
+    @apply text-primary;
+  }
+  .hero {
+    @apply bg-secondary;
+  }
+  .blog-post {
+    @apply shadow-lg hover:shadow-2xl;
+  }
+  
